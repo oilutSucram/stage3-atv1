@@ -1,0 +1,191 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  min-height: 300px;
+  background-color: #E5E5E5;
+}
+
+body::before{
+  content: '';
+  background-color: #535971;
+
+  width: 100%;
+  height: 436px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.page{
+  width: 750px;
+  margin: 0 auto;
+}
+
+header{
+  margin: 140px 0 18px;
+}
+
+header h1{
+  font-family: "Staatliches", sans-serif;
+  font-size: 48px;
+  color: #FFFFFF;
+  font-weight: 400;
+
+  width: 163px;
+  height: 60px;
+}
+
+fieldset h2{
+  font-family: "Staatliches", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  font-weight: 34px;
+  color: #535971;
+
+  margin-top: 16px;
+}
+
+header p{
+  color: white;
+  font-size: 20px;
+
+  height: 46px;
+  width: 417px;
+
+  margin-top: 18px;
+}
+
+form{
+  background-color: #FFFFFF;
+
+  margin-top: 58px;
+  min-height: 300px;
+
+  border-radius: 20px 20px 0px 0px;
+  padding: 64px;
+}
+
+fieldset{
+  border: none;
+  margin-bottom: 30px;
+}
+
+.fildset-wrapper{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+fieldset legend{
+  font-family: "Staatliches", sans-serif;
+  font-size: 24px;
+  font-weight: 34px;
+  color: #535971;
+  
+  width: 100%;
+
+  border-bottom: 1px solid #E6E6F0;
+  padding-bottom: 8px;
+}
+
+.col-2{
+  display: flex;
+  gap: 22px;
+}
+
+.col-2 div input{
+  width: 300px;  
+}
+
+.col-3{
+  display: flex;
+  gap: 8px;
+}
+
+.col-3 div input{
+  width: 140px;
+}
+
+.col-3 div label{
+  margin-top: 8px;
+}
+
+#date{
+  width: 300px;
+  margin-right: 24px;
+}
+
+.input-wrapper{
+  display: flex;
+  flex-direction: column;
+}
+
+.input-wrapper label{
+  font-size: 14px;
+  font-weight: 24px;
+  color: #4E4958;
+  margin-bottom: 8px;
+  margin-top: 36px;
+}
+
+.input-wrapper input{
+  background: #FAFAFC;
+
+  border: 1px solid #E6E6F0;
+  border-radius: 8px;
+  
+  width:  622px;
+  height: 56px;
+
+  font-size: 14px;
+  font-weight: 24px;
+  color: #4E4958;
+  
+  padding: 0 24px;
+}
+
+.input-wrapper label span{
+  color: #C1BCCC;
+  font-size: 12px;
+  font-weight: 20px;
+  margin-left: 7px;
+}
+
+footer{
+  height: 160px;
+
+  background: #535971;
+  
+  display: flex;
+  flex-direction: column;
+
+  padding: 52px 71px;
+  margin-bottom: 365px;
+
+  border-radius: 0 0 8px 8px;
+}
+
+footer .buttom{
+  width: 608px;
+  height: 55.65px;
+  border-radius: 20px;
+  color: white;
+  background: #FF5374;
+  border: none;
+}
+
+footer .buttom:hover{
+  background: #a72e46;
+}
+
+input:invalid{
+  border: 1px solid red;
+}
